@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Jaja</title>   
+</head>
+<style>
+    body {
+        background-color: #102a6b;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    #container2 {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        margin: 0;
+        background-color: #cea273;
+        height: 50%;
+        list-style-type: none;
+        font-size: 40px;
+        text-align: center;
+    }
+    .button-row {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .button {
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        background-color: #cea273;
+        color:#102a6b;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+     .gallery {
+      display: flex;
+      gap: 150px;           
+      justify-content: center;
+      flex-wrap: wrap;     
+      margin: 0;      
+    }
+    .gallery1 {
+      display: flex;
+      gap: 100px;      
+      justify-content: center;
+      flex-wrap: wrap;     
+      margin: 25px;      
+    }
+    .card {
+      width: 750px;        
+      text-align: center;
+      margin: 10px;
+      background: #cea273;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+
+    .card1 {
+      width: 500px;        
+      text-align: center;
+      margin: 5px;
+      background: #cea273;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+
+    .card img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .card1 video {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .card figcaption {
+      padding: 10px;
+      font-size: 20px;
+      color: #102a6b;
+    }
+
+    .card1 figcaption {
+      padding: 5px;
+      font-size: 20px;
+      color: #102a6b;
+    }
+    .navigation li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        background-color: #fcedd3;
+        }
+</style>
+<body>
+    <div class = "navigation">
+    <a href = "Main Page.html">
+    <img src="Main Page and About Us/logo-circle-gold-white.png" style="width:74px;height:74px;cursor: pointer;">
+    </a>
+        <li><a href="About Us_Contact Us.html" style="cursor: pointer">About Us</a></li>
+        <li><a href="About Us_Contact Us.html#Contact_Us" style="cursor: pointer">Contact Us</a></li>
+    <li><a href="Main Page.html#Artists" style="cursor: pointer">Artists</a></li>
+</div>
+<br>
+<br>
+
+<div class = "button-row">
+<button class = "button" onclick="showContainer1()"> Commissions </button>
+<button class = "button" onclick="showContainer2()"> OCs Art </button>
+</div>
+
+<div id = "container1" class = "container">
+    <h1 style="text-align:center; color: #cea273;"> Commissions </h1>
+    <div class="gallery">
+    <figure class="card">
+      <img src="Commissions (Jaja)/Untitled151_20251125212812.jpg">
+    </figure>
+    <figure class="card">
+      <img src="Commissions (Jaja)/coms.png">
+    </figure>
+    <figure class="card">
+      <img src="Commissions (Jaja)/Untitled160_20251125213023.jpg">
+    </figure>
+    </div>
+
+</div>
+
+<div id = "container2" class = "container">
+    <h1 style="text-align:center; color: #cea273;"> OCs Art </h1>
+    <div class="gallery">
+    <figure class="card">
+      <img src="OCs Art/Untitled161_20251125213157.jpg">
+    </figure>
+    <figure class="card">
+      <img src="OCs Art/Reverse 1999 fan poster_20251125212634.jpg">
+    </figure>
+    <figure class="card">
+      <img src="OCs Art/Untitled162_20251126135249.jpg">
+    </figure>
+</div>
+
+<script>
+function showContainer2() {
+  document.getElementById("container1").style.display = "none";
+  document.getElementById("container2").style.display = "block";
+}
+
+function showContainer1() {
+  document.getElementById("container2").style.display = "none";
+  document.getElementById("container1").style.display = "block";
+}
+</script>
+
+</body>
+</html>

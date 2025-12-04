@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Heilin HomePage</title>   
+</head>
+<style>
+    body {
+        background-color: #102a6b;
+        margin: 0;
+        padding: 0;
+    }
+    .navigation {
+        display: flex;
+        margin: 0;
+        background-color: #cea273;
+        height: 50%;
+        list-style-type: none;
+        font-size: 40px;
+        text-align: center;
+    }
+    .user-card {
+        align-items: center;
+        padding-top: 0px;
+        padding: 75px;
+        margin-left: 15px;
+    }
+    .container1 {
+        padding: 0%;
+    }
+    .box {
+        margin: 0%;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .box::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("Main Page and About Us/download.png");
+        background-position: center;
+        opacity: 0.4; 
+        z-index: 0;
+}
+    .box3 {
+        padding-left: 50px;
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .box2 {
+        padding: 20px;
+        margin: 5px;
+        float: left;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        transition: 0.8s;
+        padding-top: 10px;
+        background-color: #133283;
+    }
+    .button {
+        height: 45px;
+        width: 200px;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        background-color: #cea273;
+        color:#102a6b;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    .button1 {
+        height: 45px;
+        width: 200px;
+        font-size: 20px;
+        border: none;
+        background-color: #cea273;
+        color:#102a6b;
+        cursor: pointer;
+        border-radius: 8px;
+        align-items: center;
+    }
+    .box1 {
+        height: 300px;
+        width: 500px;
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #cea273;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .navigation li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        background-color: #fcedd3;
+        }
+    @font-face {
+        font-family: myFont;
+        src: url();
+    }
+    .box * {
+    position: relative;
+    z-index: 0;        
+}
+</style>
+
+<body>
+<div class = "navigation">
+    <a href = "Main Page.html">
+    <img src="Main Page and About Us/logo-circle-gold-white.png" style="width:74px;height:74px;cursor: pointer;">
+    </a>
+    <li><a href="About Us_Contact Us.html" style="cursor: pointer">About Us</a></li>
+    <li><a href="About Us_Contact Us.html#Contact_Us" style="cursor: pointer">Contact Us</a></li>
+    <li><a href="Main Page.html#Artists" style="cursor: pointer">Artists</a></li>
+</div>
+<div id="mySidenav1" class="sidenav">
+    <img src="Main Page and About Us/Slenderellah (pic).png" style="width:200px;height:200px;border-radius:50%;border: 5px solid #000000; display: flex; margin-left: auto;margin-right: auto;">
+    <h1 style = "text-align: center; color: #cea273">Introduction</h1>
+    <div class = "box1">
+    <p style = "font-size: 18px;">As a person with a creative imagination, Slenderellah utilises this method to create art and animations with an app "Gacha Life 1 and 2" and "Gacha Club". She had already begun to draw at a young age, with carefree and visionary intent, and has continued to develop to this day.</p>
+    <p style = "font-size: 18px;">With these, she continued to take this hobby seriously. Wanting to show everyone in the world her creative works and storywriting, she grew her YouTube and TikTok channels (despite having a small audience). To this day, Slenderellah continues her passion and aspires to be a self-employed animator when she grows up.</p>
+    <a href = "Slenderellah.html">
+        <button class = "button1"> Continue </button></a>
+        <button class = "button1" onclick="closeNav1()"> Back </button></a>
+    </div>
+</div>
+<div id="mySidenav2" class="sidenav">
+    <img src="Main Page and About Us/Rei 2.gif" style="width:200px;height:200px;border-radius:50%;border: 5px solid #000000; display: flex; margin-left: auto;margin-right: auto;">
+    <h1 style = "text-align: center; color: #cea273;">Introduction</h1>
+    <div class = "box1">
+    <p style = "font-size: 18px;">Rei, also known as Currei in the art community, is an aspiring digital artist with a flair for creating soft and cutesy visuals. Their artistic services cover a wide spectrum, from stylized character concepts to custom stickers, keychain designs, and simple animated pieces. Rei’s work is characterized by its charm, allowing them to deliver thoughtfully crafted commissions that resonate with clients looking for playful and imaginative visuals.</p>
+    <a href = "Rei.html">
+    <button class = "button1"> Continue </button></a>
+    <button class = "button1" onclick="closeNav2()"> Back </button></a>
+    </div>
+</div>
+<div id="mySidenav3" class="sidenav">
+    <img src="Main Page and About Us/Jaja.png" style="width:200px;height:200px;border-radius:50%;border: 5px solid #000000; display: flex; margin-left: auto;margin-right: auto;">
+    <h1 style = "text-align: center; color: #cea273;">Introduction</h1>
+    <div class = "box1">
+    <p style = "font-size: 18px;">Jaja is a visionary artist who breathes life into characters and concepts from his own richly imagined world. His semi-realistic style captures the essence of his creations, inviting viewers to delve into intricate narratives and explore the depths of his artistic universe. Each piece is a window into a realm where imagination knows no bounds.</p>
+    <p style = "font-size: 18px;">Through his art, Jaja shares glimpses of this world, inviting viewers to connect with his characters and experience their stories. His commissions offer a unique opportunity to bring your own characters and concepts to life in his signature style, allowing you to become a part of his ever-expanding artistic landscape.</p>
+    <a href = "Jaja.html">
+    <button class = "button1"> Continue </button></a>
+    <button class = "button1" onclick="closeNav3()"> Back </button></a>
+    </div>
+</div>
+
+<div class = "container1">
+    <div class = "box">
+        <h1 style = "text-align: center; font-size: 50px; color: #cea273;">WELCOME TO</h1>
+        <img src = "Main Page and About Us/logo-long-gold.png" style = "width:645px; height:201;align-items: center;">
+        <h2 style = "text-align: center; font-size: 30px; color: #cea273;">Where Creativity Lives</h2>
+    </div>
+
+    <div class = "box3" id = "Artists">
+        <h1 style = "font-size: 50px; color: #cea273;">ARTISTS</h1>
+        <div class = "box2">
+    <div class = "user-card">
+        <img src="Main Page and About Us/Jaja.png" style="width:200px;height:200px;border-radius:50%;border: 5px solid #000000">
+        <h2 style = "text-align: center; color: #cea273;">Jaja</h2>
+        <button class = "button" onclick="openNav3()"> Info </button>
+    </div>
+    <div class = "user-card">
+        <img src="Main Page and About Us/Rei 2.gif" style="width:200px;height:200px;border-radius:50%;border: 5px solid #000000">
+        <h2 style = "text-align: center; color: #cea273;">Rei</h2>
+        <button class = "button" onclick="openNav2()"> Info </button>
+    </div>
+    <div class = "user-card">
+        <img src="Main Page and About Us/Slenderellah (pic).png" style="width:200px;height:200px;border-radius:50%;border: 5px solid #000000">
+        <h2 style = "text-align: center; color: #cea273;">Slenderellah</h2>
+        <button class = "button" onclick="openNav1()"> Info </button>
+    </div>
+</div>
+
+
+
+<script>
+function openNav1() {
+  document.getElementById("mySidenav1").style.width = "700px";
+}
+function openNav2() {
+  document.getElementById("mySidenav2").style.width = "700px";
+}
+function openNav3() {
+  document.getElementById("mySidenav3").style.width = "700px";
+}
+function closeNav1() {
+  document.getElementById("mySidenav1").style.width = "0";     // slides down
+}
+function closeNav2() {
+  document.getElementById("mySidenav2").style.width = "0";     // slides down
+}
+function closeNav3() {
+  document.getElementById("mySidenav3").style.width = "0";     // slides down
+}
+</script>
+
+
+</body>
+</html>

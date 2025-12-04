@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Slenderellah</title>   
+</head>
+<style>
+    body {
+        background-color: #102a6b;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    #container2 {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        margin: 0;
+        background-color: #cea273;
+        height: 50%;
+        list-style-type: none;
+        font-size: 40px;
+        text-align: center;
+    }
+    .button-row {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .button {
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        background-color: #cea273;
+        color:#102a6b;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+     .gallery {
+      display: flex;
+      gap: 150px;           
+      justify-content: center;
+      flex-wrap: wrap;     
+      margin: 0;      
+    }
+    .gallery1 {
+      display: flex;
+      gap: 100px;      
+      justify-content: center;
+      flex-wrap: wrap;     
+      margin: 25px;      
+    }
+    .card {
+      width: 300px;        
+      text-align: center;
+      margin: 10px;
+      background: #cea273;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+
+    .card1 {
+      width: 750px;        
+      text-align: center;
+      margin: 5px;
+      background: #cea273;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+
+    .card img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .card1 video {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .card figcaption {
+      padding: 10px;
+      font-size: 20px;
+      color: #102a6b;
+    }
+
+    .card1 figcaption {
+      padding: 5px;
+      font-size: 20px;
+      color: #102a6b;
+    }
+    .navigation li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        background-color: #fcedd3;
+        }
+</style>
+<body>
+    <div class = "navigation">
+    <a href = "Main Page.html">
+    <img src="Main Page and About Us/logo-circle-gold-white.png" style="width:74px;height:74px;cursor: pointer;">
+    </a>
+    <li><a href="About Us_Contact Us.html" style="cursor: pointer">About Us</a></li>
+    <li><a href="About Us_Contact Us.html#Contact_Us" style="cursor: pointer">Contact Us</a></li>
+        <li><a href="Main Page.html#Artists" style="cursor: pointer">Artists</a></li>
+</div>
+<br>
+<br>
+
+<div class = "button-row">
+<button class = "button" onclick="showContainer1()"> Arts </button>
+<button class = "button" onclick="showContainer2()"> Gacha Videos (AU Lore) </button>
+</div>
+
+<div id = "container1" class = "container">
+    <h1 style="text-align:center; color: #cea273;">Arts</h1>
+  <div class="gallery">
+    <figure class="card">
+      <img src="Arts (Slenderellah)/iNSANiTY.png">
+      <figcaption>iNSANiTY</figcaption>
+    </figure>
+    <figure class="card">
+      <img src="Arts (Slenderellah)/18th Birthday.png">
+      <figcaption>18th Birthday Special</figcaption>
+    </figure>
+  </div>
+  <div class="gallery">
+    <figure class="card">
+      <img src="Arts (Slenderellah)/Slenderellah - Copy.png">
+      <figcaption>Slenderellah: Main OC</figcaption>
+    </figure>
+    <figure class="card">
+      <img src="Arts (Slenderellah)/Under the Moonlight.png">
+      <figcaption>Under the Moonlight</figcaption>
+    </figure>
+    </div>
+    <div class="gallery">
+    <figure class="card">
+      <img src="Arts (Slenderellah)/(Human) Slenderman.png">
+      <figcaption>(Human) Slenderman</figcaption>
+    </figure>
+    <figure class="card">
+      <img src="Arts (Slenderellah)/Father and Daughter.png">
+      <figcaption>Father and Daughter</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div id = "container2" class = "container">
+    <h1 style="text-align:center; color: #cea273;"> Gacha Videos (AU Lore) </h1>
+  <div class="gallery1">
+    <figure class="card1">
+      <video src="Gacha Videos (AU Lore)/Heavens Says.mp4" controls></video>
+      <figcaption>Heaven Says Meme</figcaption>
+    </figure>
+    <figure class="card1">
+      <video src="Gacha Videos (AU Lore)/Lore (i guess lol).mp4" controls></video>
+      <figcaption>"I'm the Sweet, Perfect, Slenderman's Daughter"</figcaption>
+    </figure>
+  </div>
+  <div class="gallery1">
+    <figure class="card1">
+      <video src= "Gacha Videos (AU Lore)/Slenderman Angst.mp4" controls></video>
+      <figcaption>"Exactly =)"</figcaption>
+    </figure>
+    <figure class="card1">
+      <video src="Gacha Videos (AU Lore)/Angst.mp4" controls></video>
+      <figcaption>"Because I Love You"</figcaption>
+    </figure>
+  </div>
+  <div class="gallery1">
+    <figure class="card1">
+      <video src="Gacha Videos (AU Lore)/Boots Reprise.mp4" controls></video>
+      <figcaption>Boots Poem Reprise</figcaption>
+    </figure>
+    <figure class="card1">
+      <video src="Gacha Videos (AU Lore)/Refuse Meme.mp4" controls></video>
+      <figcaption>Refuse Meme</figcaption>
+    </figure>
+  </div>
+  <div class="gallery1">
+    <figure class="card1">
+      <video src="C:\Users\ellah\OneDrive\Documents\Heilin\Gacha Videos (AU Lore)\Sweetness Meme.mp4" controls></video>
+      <figcaption>"Sweetness Meme"</figcaption>
+    </figure>
+  </div>
+</div>
+
+<script>
+function showContainer2() {
+  document.getElementById("container1").style.display = "none";
+  document.getElementById("container2").style.display = "block";
+}
+
+function showContainer1() {
+  document.getElementById("container2").style.display = "none";
+  document.getElementById("container1").style.display = "block";
+}
+</script>
+
+</body>
+</html>
